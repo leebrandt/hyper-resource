@@ -8,4 +8,4 @@ Most of this I hope to come from the community.
 
 For right now, it just assumes Siren (Mostly because that's the project I needed it for).
 
-But I put in the "HyperMediaType" config setting so that later I can add more, as I leanr more about the other formats.
+But I put in the "HyperMediaType" config setting so that later I can add more, as I learn more about the other formats.
