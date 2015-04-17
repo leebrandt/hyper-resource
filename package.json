@@ -1,0 +1,23 @@
+{
+  "name": "hyper-resource",
+  "version": "1.0.0",
+  "description": "ngResource-like module for using various HATEOAS formats",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hateoas",
+    "hypermedia",
+    "ReST"
+  ],
+  "author": "leebrandt@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp-karma": "0.0.4",
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
