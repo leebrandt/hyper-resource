@@ -97,6 +97,8 @@
 }());
 
 function buildHypermediaSteps(path){
+	'use strict';
+
 	var steps = [];
 	if(path && path.indexOf('/') > -1){
 		// break the path into steps
@@ -113,6 +115,7 @@ function buildHypermediaSteps(path){
 }
 
 function replaceStepParams(steps, params){
+	'use strict';
 	// get id params and put them in the step definition
 	for (var i = 0, len = steps.length; i < len; i++) {
 		if(steps[i].indexOf(':') > -1){
