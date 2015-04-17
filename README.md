@@ -22,7 +22,7 @@ angular.module('someModule', [])
 Then make a HyperResource kind of the same way you make an ngResource
 
 ```javascript
-angular.module('someModule', [])
+angular.module('someModule')
 	.factory('Person', [HyperResource, function(HyperResource){
 		return HyperResource('/path/to/resource');
 	}]);
